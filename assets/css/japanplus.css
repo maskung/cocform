@@ -1,0 +1,254 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+.location__map, .location__pin {
+    color: #c59e60;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-style: italic;
+    position: absolute;
+    left: 340px;
+    top: 305px;
+    display: block;
+    height: 130px;
+    padding-left: 73px;
+    background: url(/img/location.png) center center no-repeat;
+    font-size: 1.1em;
+    line-height: 130px;
+}
+
+
+.button__pulsed, a.button__pulsed {
+    width: 130px;
+    height: 130px;
+    direction: block;
+    float: left;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    outline: 0;
+    text-decoration: none;
+    -webkit-transition: opacity 150ms linear;
+    -moz-transition: opacity 150ms linear;
+    transition: opacity 150ms linear;
+}
+
+
+.button__pulsed.expander .inside, a.button__pulsed.expander .inside {
+    background-position: 18px -107px;
+}
+
+.button__pulsed .inside, a.button__pulsed .inside {
+    -webkit-transition: background-color 150ms linear;
+    -moz-transition: background-color 150ms linear;
+    transition: background-color 150ms linear;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    padding: 6px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -30px 0 0 -30px;
+    border-radius: 50%;
+}
+.button__pulsed.expander .circle, a.button__pulsed.expander .circle {
+    border: 1px solid #c59e60;
+}
+
+.button__pulsed .circle.s1, a.button__pulsed .circle.s1 {
+    -webkit-animation-delay: -.8s;
+    -moz-animation-delay: -.8s;
+    animation-delay: -.8s;
+}
+.button__pulsed .circle.s2, a.button__pulsed .circle.s2 {
+    -webkit-animation-delay: -1.6s;
+    -moz-animation-delay: -1.6s;
+    animation-delay: -1.6s;
+}
+.button__pulsed .circle, a.button__pulsed .circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #e06526;
+    -webkit-animation-name: pulsate;
+    -moz-animation-name: pulsate;
+    animation-name: pulsate;
+    /* -webkit-animation-duration: 2.4s; */
+    -moz-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+/* For background fluid   */
+.background_fluid{
+
+    background-color: #fdf9f9;
+
+}
+/* End For background fluid   */
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+
+
+
+/* about us */
+
+.nopadding_aboutus{
+
+padding: 0 0 0 0;
+
+
+}
+
+
+/* Footer Styles */
+
+
+footer {
+    color: #fff;
+    margin: 50px 0;
+}
+.footer_bg {
+    background-color: #1f1f14;
+    color: #fff;
+
+}
+
+.color_text_footer{
+  color: #fff;
+}
+.color_black{
+  color: #000000;
+  text-decoration: underline;
+}
+/* Responsive Styles */
+@media only screen and (min-width: 360px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+  /* For background fluid   */
+  .background_fluid{
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-color: #fdf9f9;
+
+  }
+
+
+}
+
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
