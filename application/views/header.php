@@ -61,12 +61,14 @@
         /*Image only BG fallback*/
 
         /*background = gradient + image pattern combo*/
-        background:
-            linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+        /*background:
+            linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6)); */
         }
 
         body {
         font-family: montserrat, arial, verdana;
+        background:
+            linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6)); 
         }
         /*form styles*/
         #msform {
